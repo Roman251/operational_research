@@ -8,7 +8,7 @@ public class Main {
         int elem = sc.nextInt();
         int[] workers = new int[elem];
         int[] outputs = new int[elem];
-        Object[] arrayObjects = new Object[4];
+        Object[] arrayObjects = new Object[2];
         for (int i = 0; i < elem; i++) {
             System.out.println("Number of workers");
             workers[i] = sc.nextInt();
