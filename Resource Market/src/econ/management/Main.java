@@ -10,9 +10,9 @@ public class Main {
         int[] outputs = new int[elem];
         Object[] arrayObjects = new Object[2];
         for (int i = 0; i < elem; i++) {
-            System.out.println("Number of workers");
+            System.out.println("Workers");
             workers[i] = sc.nextInt();
-            System.out.println("Output the number of workers can produce");
+            System.out.println("Output");
             outputs[i] = sc.nextInt();
         }
         arrayObjects[0] = workers;
