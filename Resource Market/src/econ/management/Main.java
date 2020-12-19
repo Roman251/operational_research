@@ -19,7 +19,6 @@ public class Main {
         arrayObjects[1] = outputs;
         return arrayObjects;
     }
-
     public static int[] MarginalProduct(int[] output){
         int[] mp = new int[output.length];
         mp[0] = 0;
@@ -35,7 +34,6 @@ public class Main {
         }
         System.out.println("");
         return mp;
-
     }
     public static void MarginalRateProduction(int[] mp, int price, int wage, int[] workers){
         int[] mrp = new int[workers.length];
@@ -49,14 +47,11 @@ public class Main {
                     System.out.println("Exception");
                 }
             }
-
-
         System.out.println("Corresponding MRP");
         System.out.println(Arrays.toString(mrp));
         System.out.println(hire);
         System.out.println("The number of workers you need to hire is "+ hire);
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Input the price of the product...");
